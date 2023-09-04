@@ -11,6 +11,8 @@
 		21A7E0EA2AA6832C004D3E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7E0E92AA6832C004D3E98 /* ContentView.swift */; };
 		21A7E0EC2AA6832E004D3E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A7E0EB2AA6832E004D3E98 /* Assets.xcassets */; };
 		21A7E0EF2AA6832E004D3E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A7E0EE2AA6832E004D3E98 /* Preview Assets.xcassets */; };
+		21A7E0F72AA683A0004D3E98 /* OTPVerificationVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7E0F62AA683A0004D3E98 /* OTPVerificationVIew.swift */; };
+		21A7E0F92AA695F9004D3E98 /* OTPVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7E0F82AA695F9004D3E98 /* OTPVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		21A7E0E92AA6832C004D3E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21A7E0EB2AA6832E004D3E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A7E0EE2AA6832E004D3E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21A7E0F62AA683A0004D3E98 /* OTPVerificationVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationVIew.swift; sourceTree = "<group>"; };
+		21A7E0F82AA695F9004D3E98 /* OTPVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		21A7E0E62AA6832C004D3E98 /* signup-ui */ = {
 			isa = PBXGroup;
 			children = (
+				21A7E0F52AA68380004D3E98 /* View */,
 				21A7E0E72AA6832C004D3E98 /* signup_uiApp.swift */,
 				21A7E0E92AA6832C004D3E98 /* ContentView.swift */,
 				21A7E0EB2AA6832E004D3E98 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				21A7E0EE2AA6832E004D3E98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21A7E0F52AA68380004D3E98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21A7E0F62AA683A0004D3E98 /* OTPVerificationVIew.swift */,
+				21A7E0F82AA695F9004D3E98 /* OTPVIew.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A7E0F72AA683A0004D3E98 /* OTPVerificationVIew.swift in Sources */,
 				21A7E0EA2AA6832C004D3E98 /* ContentView.swift in Sources */,
+				21A7E0F92AA695F9004D3E98 /* OTPVIew.swift in Sources */,
 				21A7E0E82AA6832C004D3E98 /* signup_uiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
