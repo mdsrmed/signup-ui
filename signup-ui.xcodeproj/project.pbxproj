@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2195DFCA2AA7D9C900F17D7D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195DFC92AA7D9C900F17D7D /* LoginView.swift */; };
+		2195DFCD2AA7DBBC00F17D7D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195DFCC2AA7DBBC00F17D7D /* View+Extensions.swift */; };
+		2195DFCF2AA7DE3600F17D7D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195DFCE2AA7DE3600F17D7D /* CustomTextField.swift */; };
+		2195DFD12AA7E6A800F17D7D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195DFD02AA7E6A800F17D7D /* CustomButton.swift */; };
 		21A7E0E82AA6832C004D3E98 /* signup_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7E0E72AA6832C004D3E98 /* signup_uiApp.swift */; };
 		21A7E0EA2AA6832C004D3E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7E0E92AA6832C004D3E98 /* ContentView.swift */; };
 		21A7E0EC2AA6832E004D3E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A7E0EB2AA6832E004D3E98 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2195DFC92AA7D9C900F17D7D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2195DFCC2AA7DBBC00F17D7D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		2195DFCE2AA7DE3600F17D7D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		2195DFD02AA7E6A800F17D7D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		21A7E0E42AA6832C004D3E98 /* signup-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "signup-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A7E0E72AA6832C004D3E98 /* signup_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup_uiApp.swift; sourceTree = "<group>"; };
 		21A7E0E92AA6832C004D3E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2195DFCB2AA7DB9100F17D7D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2195DFCC2AA7DBBC00F17D7D /* View+Extensions.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		21A7E0DB2AA6832C004D3E98 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +71,7 @@
 		21A7E0E62AA6832C004D3E98 /* signup-ui */ = {
 			isa = PBXGroup;
 			children = (
+				2195DFCB2AA7DB9100F17D7D /* Components */,
 				21A7E0F52AA68380004D3E98 /* View */,
 				21A7E0E72AA6832C004D3E98 /* signup_uiApp.swift */,
 				21A7E0E92AA6832C004D3E98 /* ContentView.swift */,
@@ -77,6 +94,9 @@
 			children = (
 				21A7E0F62AA683A0004D3E98 /* OTPVerificationVIew.swift */,
 				21A7E0F82AA695F9004D3E98 /* OTPVIew.swift */,
+				2195DFC92AA7D9C900F17D7D /* LoginView.swift */,
+				2195DFCE2AA7DE3600F17D7D /* CustomTextField.swift */,
+				2195DFD02AA7E6A800F17D7D /* CustomButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,9 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2195DFCF2AA7DE3600F17D7D /* CustomTextField.swift in Sources */,
 				21A7E0F72AA683A0004D3E98 /* OTPVerificationVIew.swift in Sources */,
 				21A7E0EA2AA6832C004D3E98 /* ContentView.swift in Sources */,
 				21A7E0F92AA695F9004D3E98 /* OTPVIew.swift in Sources */,
+				2195DFD12AA7E6A800F17D7D /* CustomButton.swift in Sources */,
+				2195DFCA2AA7D9C900F17D7D /* LoginView.swift in Sources */,
+				2195DFCD2AA7DBBC00F17D7D /* View+Extensions.swift in Sources */,
 				21A7E0E82AA6832C004D3E98 /* signup_uiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

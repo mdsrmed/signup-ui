@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showSignup: Bool = false
     var body: some View {
-        OTPVIew()
+        NavigationStack {
+            LoginView(showSignup: $showSignup)
+                .navigationDestination(isPresented: $showSignup) {
+                    
+                }
+        }
     }
 }
 
