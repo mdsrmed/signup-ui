@@ -11,6 +11,10 @@
 		2195DFCD2AA7DBBC00F17D7D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195DFCC2AA7DBBC00F17D7D /* View+Extensions.swift */; };
 		2195DFCF2AA7DE3600F17D7D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195DFCE2AA7DE3600F17D7D /* CustomTextField.swift */; };
 		2195DFD12AA7E6A800F17D7D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195DFD02AA7E6A800F17D7D /* CustomButton.swift */; };
+		219969852AA931840060CE6C /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219969842AA931840060CE6C /* Signup.swift */; };
+		219969872AA9346C0060CE6C /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219969862AA9346C0060CE6C /* ForgotPasswordView.swift */; };
+		219969892AA93A300060CE6C /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219969882AA93A300060CE6C /* PasswordResetView.swift */; };
+		2199698B2AA93CCE0060CE6C /* OTPPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199698A2AA93CCE0060CE6C /* OTPPresentationView.swift */; };
 		21A7E0E82AA6832C004D3E98 /* signup_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7E0E72AA6832C004D3E98 /* signup_uiApp.swift */; };
 		21A7E0EA2AA6832C004D3E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7E0E92AA6832C004D3E98 /* ContentView.swift */; };
 		21A7E0EC2AA6832E004D3E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A7E0EB2AA6832E004D3E98 /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 		2195DFCC2AA7DBBC00F17D7D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		2195DFCE2AA7DE3600F17D7D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		2195DFD02AA7E6A800F17D7D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		219969842AA931840060CE6C /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		219969862AA9346C0060CE6C /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		219969882AA93A300060CE6C /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		2199698A2AA93CCE0060CE6C /* OTPPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPPresentationView.swift; sourceTree = "<group>"; };
 		21A7E0E42AA6832C004D3E98 /* signup-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "signup-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A7E0E72AA6832C004D3E98 /* signup_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup_uiApp.swift; sourceTree = "<group>"; };
 		21A7E0E92AA6832C004D3E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +105,10 @@
 				2195DFC92AA7D9C900F17D7D /* LoginView.swift */,
 				2195DFCE2AA7DE3600F17D7D /* CustomTextField.swift */,
 				2195DFD02AA7E6A800F17D7D /* CustomButton.swift */,
+				219969842AA931840060CE6C /* Signup.swift */,
+				219969862AA9346C0060CE6C /* ForgotPasswordView.swift */,
+				219969882AA93A300060CE6C /* PasswordResetView.swift */,
+				2199698A2AA93CCE0060CE6C /* OTPPresentationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,9 +188,13 @@
 				21A7E0EA2AA6832C004D3E98 /* ContentView.swift in Sources */,
 				21A7E0F92AA695F9004D3E98 /* OTPVIew.swift in Sources */,
 				2195DFD12AA7E6A800F17D7D /* CustomButton.swift in Sources */,
+				219969852AA931840060CE6C /* Signup.swift in Sources */,
 				2195DFCA2AA7D9C900F17D7D /* LoginView.swift in Sources */,
 				2195DFCD2AA7DBBC00F17D7D /* View+Extensions.swift in Sources */,
+				219969872AA9346C0060CE6C /* ForgotPasswordView.swift in Sources */,
 				21A7E0E82AA6832C004D3E98 /* signup_uiApp.swift in Sources */,
+				2199698B2AA93CCE0060CE6C /* OTPPresentationView.swift in Sources */,
+				219969892AA93A300060CE6C /* PasswordResetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

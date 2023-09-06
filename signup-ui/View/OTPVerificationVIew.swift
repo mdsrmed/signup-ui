@@ -9,18 +9,19 @@ import SwiftUI
 
 struct OTPVerificationVIew: View {
     
-    @State var otpText: String = ""
+//    @State var otpText: String = ""
+    @Binding var otpText:String
     @FocusState private var isKeyboardShowing: Bool
     
     var body: some View {
-        VStack {
-            Text("Verify OTP")
-                .font(.largeTitle.bold())
-                .frame(maxWidth: .infinity,alignment: .leading)
+//        VStack {
+//            Text("Verify OTP")
+//                .font(.largeTitle.bold())
+//                .frame(maxWidth: .infinity,alignment: .leading)
             
             HStack(spacing: 0){
                 ForEach(0..<6, id: \.self){ index in
-                    
+
                     OTPTextBox(index)
                 }
             }
@@ -37,27 +38,27 @@ struct OTPVerificationVIew: View {
             .onTapGesture {
                 isKeyboardShowing.toggle()
             }
-            .padding(.top,10)
-            .padding(.bottom, 20)
-
-            
-            TextField("", text: $otpText)
-            
-            Button {
-                
-            } label: {
-                Text("Verify")
-                    .foregroundColor(.white)
-                    .fontWeight(.semibold)
-                    .padding(.vertical,12)
-                    .frame(maxWidth: .infinity)
-                    .background(.blue)
-                    .cornerRadius(10)
-            }
-            .disableWithOpacity(otpText.count < 6)
-        }
-        .padding()
-        .frame(maxHeight: .infinity, alignment: .top)
+//            .padding(.top,10)
+//            .padding(.bottom, 20)
+//
+//
+//            TextField("", text: $otpText)
+//
+//            Button {
+//
+//            } label: {
+//                Text("Verify")
+//                    .foregroundColor(.white)
+//                    .fontWeight(.semibold)
+//                    .padding(.vertical,12)
+//                    .frame(maxWidth: .infinity)
+//                    .background(.blue)
+//                    .cornerRadius(10)
+//            }
+//            .disableWithOpacity(otpText.count < 6)
+//        }
+//        .padding()
+//        .frame(maxHeight: .infinity, alignment: .top)
         .toolbar {
             ToolbarItem(placement: .keyboard) {
                 Button("Done"){
@@ -93,24 +94,24 @@ struct OTPVerificationVIew: View {
   
 }
 
-struct OTPVerificationVIew_Previews: PreviewProvider {
-    static var previews: some View {
-        OTPVerificationVIew()
-    }
-}
+//struct OTPVerificationVIew_Previews: PreviewProvider {
+//    static var previews: some View {
+//        OTPVerificationVIew()
+//    }
+//}
 
 
 
-extension View {
-    
-    func disableWithOpacity(_ condition: Bool) -> some View {
-        self
-            .disabled(condition)
-            .opacity(condition ? 0.5 : 1.0)
-    }
-    
-    
-}
+//extension View {
+//    
+//    func disableWithOpacity(_ condition: Bool) -> some View {
+//        self
+//            .disabled(condition)
+//            .opacity(condition ? 0.5 : 1.0)
+//    }
+//    
+//    
+//}
 
 
 // MARK: Binding <String> Extension

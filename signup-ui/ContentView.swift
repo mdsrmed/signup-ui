@@ -10,12 +10,22 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var showSignup: Bool = false
+    @State private var isKeyboardShowing: Bool = false
     var body: some View {
         NavigationStack {
             LoginView(showSignup: $showSignup)
                 .navigationDestination(isPresented: $showSignup) {
-                    
+                    Signup(showSignup: $showSignup)
                 }
+                .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillShowNotification),perform: { _ in
+                    isKeyboardShowing = true
+                    if !showSignup {
+                        isKeyboardShowing = true
+                    }
+                })
+                .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillHideNotification),perform: { _ in
+                    isKeyboardShowing = false
+                })
         }
     }
 }
